@@ -14,7 +14,7 @@
                 "1": 180.6060791015625
             },
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [
                 {
@@ -209,89 +209,13 @@
                 "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-                678660694977827,
+                505476479946924,
                 "randomize",
                 20,
                 1,
                 "euler",
                 "normal",
                 1
-            ]
-        },
-        {
-            "id": 19,
-            "type": "PromptUtilitiesConstStringMultiLine",
-            "pos": [
-                -236,
-                12
-            ],
-            "size": {
-                "0": 550.541748046875,
-                "1": 408.7108459472656
-            },
-            "flags": {},
-            "order": 1,
-            "mode": 0,
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        38
-                    ],
-                    "shape": 3,
-                    "slot_index": 0
-                }
-            ],
-            "title": "Training Module - Article",
-            "properties": {
-                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
-            },
-            "widgets_values": [
-                "# What's next for AI agentic workflows ft. Andrew Ng of AI Fund\n\n\n00:00:03.560 all of you uh know Andreu in as a famous\n00:00:06.480 uh computer science professor at\n00:00:08.000 Stanford was really early on in the\n00:00:10.880 development of neural networks with gpus\n00:00:13.960 of course a creator of corsera and\n00:00:15.719 popular courses like\n00:00:17.279 deeplearning.ai also the founder and\n00:00:19.880 Creator uh and early lead of Google\n00:00:22.840 brain uh but one thing I've always\n00:00:24.680 wanted to ask you before I hand it over\n00:00:26.400 Andrew while you're on stage uh is a\n00:00:30.519 question I think would be relevant to\n00:00:31.640 the whole audience 10 years ago on\n00:00:35.280 problem set number two of cs229 you gave\n00:00:38.120 me a\n00:00:39.600 b and I was wondering I looked it over I\n00:00:42.280 was wondering what you saw that I did\n00:00:44.719 incorrectly so anyway Andrew thank you\n00:00:47.520 Hansen um looking forward to sharing\n00:00:49.079 with all of you what I'm seeing with AI\n00:00:51.680 agents which I think is the exciting\n00:00:53.440 Trend that I think everyone building in\n00:00:56.039 AI should pay attention to and then also\n00:00:57.920 excited about all all the other uh on\n00:01:00.039 Sak presentations so hey agents you know\n00:01:03.199 today the way most of us use Lish models\n00:01:05.720 is like this with a non- agentic\n00:01:07.759 workflow where you type a prompt and\n00:01:10.280 generates an answer and that's a bit\n00:01:12.280 like if you ask a person to write an\n00:01:14.680 essay on a topic and I say please sit\n00:01:16.759 down to the keyboard and just type the\n00:01:18.759 essay from start to finish without ever\n00:01:21.280 using backspace um and despite how hard\n00:01:24.280 thises is L's do it remarkably well in\n00:01:27.720 contrast with an agentic workflow this\n00:01:30.799 is what it may look like have an AI have\n00:01:32.680 an LM say write an essay outline do you\n00:01:35.479 need to do any web research if so let's\n00:01:37.720 do that then write the first draft and\n00:01:40.280 then read your own first draft and think\n00:01:42.840 about what parts need revision and then\n00:01:45.280 revise your draft and you go on and on\n00:01:47.799 and so this workflow is much more\n00:01:49.520 iterative where you may have the L do\n00:01:52.399 some thinking um and then revise this\n00:01:55.600 article and then do some more thinking\n00:01:57.960 and iterate this through a number of\n00:02:00.159 times and what not many people\n00:02:02.159 appreciate is this delivers remarkably\n00:02:05.320 better results um I've actually been\n00:02:07.399 really surprised myself working these\n00:02:08.919 agent workflows how well how well they\n00:02:11.280 work I's do one case study at my team\n00:02:14.080 analyzed some data uh using a coding\n00:02:16.560 Benchmark called the human eval\n00:02:18.440 Benchmark released by open a few years\n00:02:20.160 ago um but this says coding problems\n00:02:22.760 like given the nonent list of integers\n00:02:25.239 return the sum of all the all elements\n00:02:26.800 are an even positions and it turns out\n00:02:29.040 the answer is you code snipper like that\n00:02:31.040 so today lot of us will use zero shot\n00:02:33.640 prompting meaning we tell the AI write\n00:02:35.840 the code and have it run on the first\n00:02:37.519 spot like who codes like that no human\n00:02:39.280 codes like that just type out the code\n00:02:40.959 and run it maybe you do I can't do that\n00:02:43.920 um so it turns out that if you use GPT\n00:02:46.800 3.5 uh zero shot prompting it gets it\n00:02:50.040 48% right uh gp4 way better 607 7% right\n00:02:55.480 but if you take an agentic workflow and\n00:02:57.680 wrap it around GPT 3.5 I say it actually\n00:03:01.120 does better than even\n00:03:03.440 gbd4 um and if you were to wrap this\n00:03:06.560 type of workflow around gb4 you know it\n00:03:09.159 it it also um does very well and you\n00:03:12.400 notice that gbd 3.5 with an agentic\n00:03:15.280 workflow actually outperforms\n00:03:18.680 gp4 um and I think this has and this\n00:03:21.920 means that this has signant consequences\n00:03:24.120 fighting how we all approach building\n00:03:26.560 applications so agents is the ter of\n00:03:29.959 around a lot there's a lot of consultant\n00:03:31.760 reports talk about agents the future of\n00:03:33.560 AI blah blah blah I want to be a bit\n00:03:35.400 concrete and share of you um the broad\n00:03:38.200 design patterns I'm seeing in agents\n00:03:40.599 it's a very messy chaotic space tons of\n00:03:42.560 research tons of Open Source there's a\n00:03:44.280 lot going on but I try to categorize um\n00:03:46.920 bit more concretely what's going on\n00:03:48.760 agents reflection is a tool that I think\n00:03:51.959 many of us should just use it just works\n00:03:54.120 uh to use I think it's more widely\n00:03:56.159 appreciated but actually works pretty\n00:03:57.680 well I think of these as pretty robust\n00:03:59.319 technology when I use them I can you\n00:04:01.360 know almost always get them to work well\n00:04:04.040 um planning and multi-agent\n00:04:05.959 collaboration I think is more emerging\n00:04:08.480 when I use them sometimes my mind is\n00:04:10.040 blown for how well they work but at\n00:04:12.079 least at this moment in time I don't\n00:04:13.720 feel like I can always get them to work\n00:04:15.519 Rel Lively so let me walk through these\n00:04:18.120 four design patterns in the few slides\n00:04:20.079 and if some of you go back and yourself\n00:04:22.440 will ask your engineers to use these I\n00:04:24.040 think you get a productivity boost quite\n00:04:26.120 quickly so reflection here's an example\n00:04:29.160 let's say ask a system please write code\n00:04:31.960 for me for a given task then we have a\n00:04:34.800 coder agent just an LM that you prompt\n00:04:37.199 to write code to say you def du task\n00:04:40.039 write a function like that um an example\n00:04:42.919 of\n00:04:43.800 self-reflection would be if you then\n00:04:45.919 prompt the LM with something like this\n00:04:47.919 here's code intended for a toas and just\n00:04:50.000 give it back the exact same code that\n00:04:51.600 they just generated and then say check\n00:04:53.759 the code carefully for correctness sound\n00:04:55.560 efficiency good construction CRI just\n00:04:57.240 write prompt like that it turns out the\n00:04:59.160 same l that you prompted to write the\n00:05:01.120 code may be able to spot problems like\n00:05:03.600 this bug in line Five May fix it by blah\n00:05:05.800 blah blah and if you now take his own\n00:05:07.840 feedback and give it to it and reprompt\n00:05:09.520 it it may come up with a version two of\n00:05:12.000 the code that could well work better\n00:05:13.520 than the first version not guaranteed\n00:05:15.160 but it works you know often enough for\n00:05:17.360 this be wor trying for a lot of\n00:05:19.360 applications um to foreshadow to use if\n00:05:22.960 you let it run unit test if it fails a\n00:05:25.199 unit test then he why do you fail the\n00:05:27.319 unit test have that conversation and be\n00:05:29.000 able to figure out fail the unit test so\n00:05:31.240 you should try changing something and\n00:05:32.800 come up with V3 by the way for those of\n00:05:35.880 you that want to learn more about these\n00:05:37.039 Technologies I'm very excited about them\n00:05:38.840 for each of the four sections I have a\n00:05:40.479 little recommended reading section at\n00:05:42.080 the bottom that you know hopefully gives\n00:05:44.280 more references and again just the\n00:05:46.240 foreshadow multi-agent systems I've\n00:05:48.800 described as a single coder agent that\n00:05:51.280 you prompt to have it you know have this\n00:05:52.919 conversation with itself um one Natural\n00:05:55.400 Evolution of this idea is instead of a\n00:05:57.759 single code agent you can can have two\n00:06:00.440 agents where one is a coder agent and\n00:06:02.840 the second is a Critic agent and these\n00:06:05.759 could be the same base LM model but that\n00:06:08.720 you prompt in different ways where you\n00:06:10.280 say one your expert coder right code the\n00:06:12.759 other one say your expert code review to\n00:06:14.680 review this code and this Tye of\n00:06:16.360 workflow is actually pretty easy to\n00:06:18.080 implement I think it's such a very\n00:06:19.880 general purpose technology for a lot of\n00:06:21.960 workflows this would give you a\n00:06:23.160 significant boost in in the performance\n00:06:25.160 of LMS um the second design pattern is\n00:06:28.479 to use many of where already have seen\n00:06:31.000 you know LM based systems uh uh using\n00:06:33.599 tools on the left is a screenshot from\n00:06:36.360 um co-pilot on the right is something\n00:06:39.039 that I kind of extracted from uh gp4 but\n00:06:42.000 you know LM today if you ask it what's\n00:06:44.319 the best coffee maker web search for\n00:06:46.240 some problems um will generate code and\n00:06:48.759 run code um and it turns out that there\n00:06:51.440 are a lot of different tools that many\n00:06:53.720 different people are using for analysis\n00:06:56.199 for gathering information for taking\n00:06:58.280 action for personal productivity\n00:07:00.280 um it turns out a lot of the early work\n00:07:02.120 in two use turned out to be in the\n00:07:03.919 computer vision Community because before\n00:07:06.720 large language models lm's you know they\n00:07:09.080 couldn't do anything with images so the\n00:07:10.720 only option was that the LM generate a\n00:07:13.319 function called that could manipulate an\n00:07:15.120 image like generate an image or do\n00:07:17.280 object detection or whatever so if you\n00:07:18.599 actually look at literature it's been\n00:07:20.400 interesting how much of the work um in\n00:07:22.720 two years seems like it originated from\n00:07:25.599 Vision because LMS would blind to images\n00:07:27.879 before you know gp4 and and and lava and\n00:07:31.039 so on um so that's two use and it\n00:07:34.120 expands what an LM can do um and then\n00:07:38.560 planning you know for those of you that\n00:07:40.240 have not yet played a lot with planning\n00:07:42.120 algorithms I I feel like a lot of people\n00:07:44.319 talk about the chat GPT moment where\n00:07:46.520 you're wow never seen anything like this\n00:07:48.680 I think if not used planning alums many\n00:07:51.479 people will have a kind of a AI agent\n00:07:54.400 wow I couldn't imagine the AI agent\n00:07:56.680 doing this I've run live demos where\n00:07:59.000 something failed and the AI agent\n00:08:01.039 rerouted around the failures I've\n00:08:02.919 actually had quite a few of those moment\n00:08:04.960 wow you can't believe my AI system just\n00:08:07.159 did that autonomously but um one example\n00:08:10.479 that I adapted from a hugging GPT paper\n00:08:12.879 you know you say this general image\n00:08:14.720 where the girls read where a girl is\n00:08:16.039 reading a book and it posts the same as\n00:08:17.440 a boy in the image example. jpack and\n00:08:19.879 please subscribe the new image for your\n00:08:21.360 voice so give an example like this um\n00:08:23.639 today we have ai agents who can kind of\n00:08:25.759 decide first thing I need to do is\n00:08:27.759 determine the post of the boy\n00:08:29.960 um then you know find the right model\n00:08:32.120 maybe on hugging face to extract the\n00:08:34.799 post then next need to find a post image\n00:08:37.599 model to synthesize a picture of a of a\n00:08:40.399 girl of as following the instructions\n00:08:43.039 then use image to text to and then\n00:08:46.040 finally use text of speech and today we\n00:08:48.040 actually have agents that I don't want\n00:08:50.040 to say they work reliably you know\n00:08:52.720 they're kind of finicky they don't\n00:08:55.240 always work but when it works is\n00:08:57.000 actually pretty amazing but with agentic\n00:08:59.079 loops sometimes you can recover from\n00:09:00.760 earlier failures as well so I find\n00:09:03.160 myself already using research agents for\n00:09:05.320 some of my work where one of piece of\n00:09:07.680 research but I don't feel like you know\n00:09:09.200 Googling myself and spend a long time I\n00:09:11.000 should send to the research agent come\n00:09:13.040 back in a few minutes and see what it's\n00:09:14.560 come up with and and it sometimes works\n00:09:16.519 sometimes doesn't right but that's\n00:09:17.680 already a part of my personal\n00:09:20.120 workflow the final design pattern multi-\n00:09:22.760 Asian collaboration this is one of those\n00:09:24.560 funny things but uh um it works much\n00:09:28.079 better than you might think\n00:09:29.880 uh uh but on the left is a screenshot\n00:09:33.079 from a paper called um chat Dev uh which\n00:09:36.839 is completely open which actually open\n00:09:38.920 source many of you saw the you know\n00:09:41.040 flashy social media announcements of\n00:09:43.040 demo of a Devon uh uh Chad Dev is open\n00:09:46.560 source it runs on my laptop and what\n00:09:49.240 Chad Dev doeses is example of a\n00:09:51.079 multi-agent system where you prompt one\n00:09:54.399 LM to sometimes act like the CEO of a\n00:09:57.519 software engine company sometimes Act\n00:09:59.399 designer sometime a product manager\n00:10:01.079 sometimes I a tester and this flock of\n00:10:03.640 agents that you built by prompting an LM\n00:10:05.800 to tell them you're now Co you're now\n00:10:08.200 software engineer they collaborate have\n00:10:10.279 an extended conversation so that if you\n00:10:12.920 tell it please develop a game develop a\n00:10:15.640 GOI game they'll actually spend you know\n00:10:18.360 a few minutes writing code testing it uh\n00:10:21.040 iterating and then generate a like\n00:10:23.480 surprisingly complex programs doesn't\n00:10:25.720 always work I've used it sometimes it\n00:10:27.560 doesn't work sometimes it's amazing but\n00:10:29.680 this technology is really um getting\n00:10:32.120 better and and just one of design\n00:10:34.399 pattern it turns out that multi-agent\n00:10:36.639 debate where you have different agents\n00:10:38.360 you know for example could be have ch\n00:10:40.040 GPT and Gemini debate each other that\n00:10:42.959 actually results in better performance\n00:10:45.839 as well so having multiple simulated air\n00:10:48.399 agents work together has been a powerful\n00:10:50.560 design pattern as well um so just to\n00:10:53.839 summarize I think these are the these\n00:10:55.519 are the the the uh patterns of seen and\n00:10:58.800 I think that if we were to um use these\n00:11:01.760 uh uh patterns you know in our work a\n00:11:04.240 lot of us can get a prity boost quite\n00:11:06.959 quickly and I think that um agentic\n00:11:09.639 reasoning design patterns are going to\n00:11:12.120 be important uh this is my small slide I\n00:11:15.200 expect that the set of T AI could do\n00:11:17.200 will expand dramatically this year uh\n00:11:20.600 because of agentic workflows and one\n00:11:23.639 thing that it's actually difficult\n00:11:25.000 people to get used to is when we prompt\n00:11:27.399 an LM we want to response right away\n00:11:29.760 um in fact a decade ago when I was you\n00:11:31.839 know having discussions around at at at\n00:11:33.959 Google on um it called a big box search\n00:11:36.880 we type a long prompt one of the reasons\n00:11:39.680 you know I failed to push successfully\n00:11:42.120 for that was because when you do a web\n00:11:43.959 search you one of responds back in half\n00:11:45.680 a second right that's just human nature\n00:11:47.360 we like that instant grab instant\n00:11:49.120 feedback but for a lot of the agent\n00:11:50.800 workflows um I think we'll need to learn\n00:11:53.800 to dedicate the toss and AI agent and\n00:11:56.040 patiently wait minutes maybe even hours\n00:11:58.600 uh to for a response but just like I've\n00:12:01.120 seen a lot of novice managers delegate\n00:12:03.800 something to someone and then check in 5\n00:12:05.600 minutes later right and that's not\n00:12:07.200 productive um I think we need to it be\n00:12:10.320 difficult we need to do that with some\n00:12:11.440 of our AI agents as well I saw I heard\n00:12:14.320 some loss um and then one other\n00:12:17.120 important Trend fast token generation is\n00:12:18.959 important because with these agented\n00:12:21.199 workflows we're iterating over and over\n00:12:23.279 so the LM is generating tokens for the\n00:12:25.079 elm to read so be able to generate\n00:12:26.839 tokens way faster than any human to read\n00:12:29.199 is fantastic and I think that um\n00:12:31.920 generating more tokens really quickly\n00:12:33.959 from even a slightly lower quality LM\n00:12:36.680 might give good results compared to\n00:12:39.320 slower tokens from a better LM maybe\n00:12:41.720 it's a little bit controversial because\n00:12:43.240 it may let you go around this Loop a lot\n00:12:44.920 more times kind of like the results I\n00:12:46.399 showed with gbd3 and an agent\n00:12:48.680 architecture on the first slide um and\n00:12:51.399 cand I'm really looking forward to Cloud\n00:12:53.560 5 and uh CL 4 and gb5 and Gemini 2.0 and\n00:12:56.959 all these other wonderful models that\n00:12:58.360 may are building\n00:12:59.800 and part of me feels like if you're\n00:13:01.839 looking forward to running your thing on\n00:13:03.880 gp5 zero shot you know you mayble to get\n00:13:07.279 closer to that level performance on some\n00:13:09.720 applications than you might think with\n00:13:11.639 agenting reasoning um but on an early\n00:13:14.320 model I think I I I I think this is an\n00:13:17.360 important Trend uh uh and honestly the\n00:13:21.360 path to AGI feels like a journey rather\n00:13:24.480 than a destination but I think this typ\n00:13:26.519 of agent workflows could help us take a\n00:13:29.160 small step forward on this very long\n00:13:31.199 journey thank\n00:13:35.010 [Applause]\n00:13:38.880 you\n"
-            ]
-        },
-        {
-            "id": 26,
-            "type": "Prompt Enhancer",
-            "pos": [
-                -203,
-                549
-            ],
-            "size": {
-                "0": 400,
-                "1": 200
-            },
-            "flags": {},
-            "order": 3,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 38,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        32
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if itÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articleÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs mood and setting, making it feel immersive and true to the storyÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articleÃÂÃÂÃÂÃÂ¢ÃÂÃÂÃÂÃÂÃÂÃÂÃÂÃÂs message.\n\nBlog Article:\n\n",
-                ""
             ]
         },
         {
@@ -387,46 +311,6 @@
             ]
         },
         {
-            "id": 22,
-            "type": "ShowText|pysssss",
-            "pos": [
-                258,
-                549
-            ],
-            "size": {
-                "0": 398.1163330078125,
-                "1": 106.68721008300781
-            },
-            "flags": {},
-            "order": 6,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "text",
-                    "type": "STRING",
-                    "link": 27,
-                    "widget": {
-                        "name": "text"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": null,
-                    "shape": 6
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "ShowText|pysssss"
-            },
-            "widgets_values": [
-                "",
-                "SCENE: Diverse group of researchers in a futuristic tech lab, enchanted by holographic displays of AI agents illustrating agentic workflows, soft glow of neon lights, intense focus, awe and excitement, symphony of innovation, atmosphere of creativity."
-            ]
-        },
-        {
             "id": 11,
             "type": "CheckpointLoaderSimple",
             "pos": [
@@ -440,7 +324,7 @@
             "flags": {
                 "collapsed": false
             },
-            "order": 2,
+            "order": 1,
             "mode": 0,
             "outputs": [
                 {
@@ -501,6 +385,122 @@
             "properties": {},
             "widgets_values": [
                 "ComfyUI"
+            ]
+        },
+        {
+            "id": 19,
+            "type": "PromptUtilitiesConstStringMultiLine",
+            "pos": [
+                -236,
+                12
+            ],
+            "size": {
+                "0": 550.541748046875,
+                "1": 408.7108459472656
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        38
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "title": "Training Module - Article",
+            "properties": {
+                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
+            },
+            "widgets_values": [
+                "### **Slide 3: AWS's Vision and Challenges**\n\n**Content:**\n\n- **Challenges:**\n    - Duplication of logic in point-solutions\n    - Need for reusable modules (nodes)\n    - Non-technical curriculum developers requiring technical tools\n- **Vision:**\n    - AI-driven curriculum development\n    - Workflow orchestration layer\n    - Empowering curriculum developers\n\n**Speaker Notes:**\n\n\"From our discussions, we've learned that your team faces challenges with duplication in point-solutions and the need for reusable modules. Your vision is to have an AI-driven curriculum development process, where non-technical curriculum developers can efficiently assemble content using an orchestration layer. FlowScale is designed to address these exact needs.\""
+            ]
+        },
+        {
+            "id": 26,
+            "type": "Prompt Enhancer",
+            "pos": [
+                -203,
+                549
+            ],
+            "size": {
+                "0": 400,
+                "1": 200
+            },
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 38,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        32
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "Imagine a scene that vividly captures the essence of the article belwo. Picture a realistic setting that highlights the main ideas, characters, or events described. Focus on the environment, the lighting, the expressions of people (if applicable), and any notable actions taking place. For example, if its about a busy market, show the vibrant stalls, diverse crowd, and the lively energy of the marketplace. Add details that evoke the articles mood and setting, making it feel immersive and true to the storys narrative. Avoid any direct quotes or brand-specific imagery; instead, use general, relatable elements that reinforce the articles message.\n\nBlog Article:\n\n",
+                ""
+            ]
+        },
+        {
+            "id": 22,
+            "type": "ShowText|pysssss",
+            "pos": [
+                258,
+                549
+            ],
+            "size": [
+                394.309580996053,
+                204.4861448087861
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 27,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            },
+            "widgets_values": [
+                "",
+                "Scene: \n\nA dystopian cityscape at night, with neon lights illuminating the rainy streets. A lone figure, cloaked in shadows, stands on a rooftop overlooking the city, their cybernetic eyes glowing in the darkness. Below, flying cars zoom past, leaving streaks of light in their wake. In the distance, towering skyscrapers loom, casting long shadows over the city below. The figure's hand grips a futuristic weapon, ready to face whatever threats may come their way in this cyberpunk world."
             ]
         }
     ],
@@ -671,10 +671,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.8264462809917362,
+            "scale": 0.8264462809917366,
             "offset": [
-                352.46307525394576,
-                245.55791769121285
+                281.05416900394584,
+                -3.323957308787036
             ]
         }
     },
