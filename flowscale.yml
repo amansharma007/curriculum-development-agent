@@ -7,7 +7,7 @@ workflows:
   - id: dl0pokcimud
     name: seed_content_generator_api.json
     file: content_creation/seed_content_generator_api.json
-    version: 0
+    version: 1
     description: ''
     inputs: []
     outputs: []
@@ -16,4 +16,4 @@ normal_workflows:
   - id: j3gwkyypr97
     name: seed_content_generator.json
     file: content_creation/seed_content_generator.json
-    version: 0
+    version: 1
