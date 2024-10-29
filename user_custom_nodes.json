@@ -39,5 +39,16 @@
     "pip": [],
     "apt": [],
     "cached": "False"
+  },
+  {
+    "url": "https://github.com/amansharma007/llm-nodes",
+    "name": "llm-nodes",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {},
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "cached": "False"
   }
 ]
