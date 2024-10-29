@@ -17,3 +17,7 @@ normal_workflows:
     name: seed_content_generator.json
     file: content_creation/seed_content_generator.json
     version: 3
+  - id: 8o82ipgmj5j
+    name: module_cover_generator.json
+    file: content_creation/module_cover_generator.json
+    version: 0
