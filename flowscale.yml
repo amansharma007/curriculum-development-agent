@@ -38,7 +38,7 @@ workflows:
   - id: ch7f769gibv
     name: module_cover_generator_api.json
     file: content_creation/module_cover_generator_api.json
-    version: 1
+    version: 2
     description: ''
     inputs:
       - path: 19.inputs.string
@@ -115,7 +115,7 @@ normal_workflows:
   - id: 8o82ipgmj5j
     name: module_cover_generator.json
     file: content_creation/module_cover_generator.json
-    version: 1
+    version: 2
   - id: pzxdm37zce
     name: policy_checker.json
     file: content_quality_assurance/policy_checker.json
