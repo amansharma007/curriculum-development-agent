@@ -1,3 +1,22 @@
-
-[]
-      
+[
+  {
+    "name": "ComfyUI-PromptUtilities",
+    "url": "https://github.com/nkchocoai/ComfyUI-PromptUtilities",
+    "path": "custom_nodes",
+    "fetch_type": "git-clone",
+    "details": {
+      "author": "nkchocoai",
+      "title": "ComfyUI-PromptUtilities",
+      "reference": "https://github.com/nkchocoai/ComfyUI-PromptUtilities",
+      "files": [
+        "https://github.com/nkchocoai/ComfyUI-PromptUtilities"
+      ],
+      "install_type": "git-clone",
+      "description": "Nodes: Format String, Join String List, Load Preset, Load Preset (Advanced), Const String, Const String (multi line). Add useful nodes related to prompt."
+    },
+    "nodes": [],
+    "pip": [],
+    "apt": [],
+    "cached": "False"
+  }
+]
