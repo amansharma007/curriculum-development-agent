@@ -1,4 +1,4 @@
-version: 3
+version: 4
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -64,8 +64,24 @@ workflows:
     file: content_quality_assurance/policy_checker_api.json
     version: 2
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 33.inputs.string
+        label: Module Content
+        parameter_name: string_22579
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 31.inputs.file
+        label: file
+        parameter_name: file_31439
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Policy Check Report
+        demo_type: text
     skip_preprocess: true
   - id: 1qclm9fsrny
     name: content_scoring_and_validation_api.json
