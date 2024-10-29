@@ -20,6 +20,14 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
+  - id: agsra5gmqto
+    name: policy_checker_api.json
+    file: content_quality_assurance/policy_checker_api.json
+    version: 1
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
 normal_workflows:
   - id: j3gwkyypr97
     name: seed_content_generator.json
@@ -32,4 +40,4 @@ normal_workflows:
   - id: pzxdm37zce
     name: policy_checker.json
     file: content_quality_assurance/policy_checker.json
-    version: 0
+    version: 1
