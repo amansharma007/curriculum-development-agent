@@ -67,5 +67,21 @@
             "string": "Introduction to AWS Cloud Services"
         },
         "class_type": "PromptUtilitiesConstStringMultiLine"
+    },
+    "34": {
+        "inputs": {
+            "base_prompt": "Read through the following customer feedback and find out what topics is the customers most interested in. What topic is being talked about the most in the following customer feedbacks. \n\n\nCustomer Feedback:\n\n",
+            "prompt": [
+                "35",
+                0
+            ]
+        },
+        "class_type": "Prompt Enhancer"
+    },
+    "35": {
+        "inputs": {
+            "string": ""
+        },
+        "class_type": "PromptUtilitiesConstStringMultiLine"
     }
 }
