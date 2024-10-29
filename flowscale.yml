@@ -41,3 +41,7 @@ normal_workflows:
     name: policy_checker.json
     file: content_quality_assurance/policy_checker.json
     version: 2
+  - id: rupkj0gfnpe
+    name: content_scoring_and_validation.json
+    file: content_quality_assurance/content_scoring_and_validation.json
+    version: 0
