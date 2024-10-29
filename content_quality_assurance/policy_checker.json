@@ -1,6 +1,6 @@
 {
     "last_node_id": 45,
-    "last_link_id": 62,
+    "last_link_id": 63,
     "nodes": [
         {
             "id": 22,
@@ -118,7 +118,6 @@
                     "type": "STRING",
                     "links": [
                         58,
-                        60,
                         61
                     ],
                     "slot_index": 0,
@@ -134,104 +133,18 @@
             ]
         },
         {
-            "id": 44,
-            "type": "Prompt Enhancer",
-            "pos": [
-                892,
-                565
-            ],
-            "size": {
-                "0": 507.71197509765625,
-                "1": 392.9981689453125
-            },
-            "flags": {},
-            "order": 6,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 61,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        62
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Excerpt:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n\n**Identified Violations:**\n{User Prompt}",
-                ""
-            ]
-        },
-        {
-            "id": 31,
-            "type": "SaveText|pysssss",
-            "pos": [
-                1803,
-                41
-            ],
-            "size": {
-                "0": 400,
-                "1": 200
-            },
-            "flags": {},
-            "order": 5,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "text",
-                    "type": "STRING",
-                    "link": 60,
-                    "widget": {
-                        "name": "text"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": null,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "SaveText|pysssss"
-            },
-            "widgets_values": [
-                "output",
-                "file.txt",
-                "append",
-                true,
-                ""
-            ]
-        },
-        {
             "id": 45,
             "type": "ShowText|pysssss",
             "pos": [
                 1208,
                 30
             ],
-            "size": [
-                453.8441776702307,
-                261.0008885824932
-            ],
+            "size": {
+                "0": 453.84417724609375,
+                "1": 261.0008850097656
+            },
             "flags": {},
-            "order": 7,
+            "order": 6,
             "mode": 0,
             "inputs": [
                 {
@@ -331,6 +244,93 @@
             "widgets_values": [
                 "1. Overview of SysOps Administrator role:\nThe SysOps Administrator role within an organization is crucial for the smooth operation of AWS services and infrastructure. A SysOps Administrator is responsible for managing, maintaining, and monitoring the systems running on the AWS cloud platform. They ensure high availability, security, and performance of AWS services. To be effective in this role, SysOps Administrators require a strong understanding of AWS services, networking concepts, security best practices, automation tools, and troubleshooting techniques.\n\n2. Understanding AWS services and infrastructure:\nAWS offers a wide range of services to address various computing needs, such as computing power, storage, databases, networking, and more. Key AWS services include Amazon EC2 for virtual servers, Amazon S3 for scalable storage, and Amazon VPC for isolated networks. AWS operates in regions around the world, each containing multiple availability zones for redundancy and fault tolerance. Understanding these services and infrastructure is essential for designing and deploying applications on AWS.\n\n3. Introduction to AWS Management Console:\nThe AWS Management Console is a web-based interface that allows users to access and manage AWS services. With the console, users can configure resources, set up monitoring, and manage user access and permissions. Navigating the console effectively is essential for SysOps Administrators to perform their duties efficiently and securely.\n\n4. Basic understanding of networking concepts in AWS:\nNetworking plays a critical role in AWS, with concepts such as Virtual Private Clouds (VPC), subnets, route tables, and security groups being key components. SysOps Administrators need to configure networking settings, troubleshoot connectivity issues, and ensure that resources are secured with proper access controls.\n\n5. Security best practices in AWS:\nSecurity is a top priority in AWS, and SysOps Administrators must follow best practices to protect resources and data from security threats. This includes implementing strong access controls, encryption, and key management. Understanding and applying security best practices is essential for maintaining a secure environment on AWS.\n\n6. Managing EC2 instances and security groups:\nEC2 instances are virtual servers that run on the AWS cloud. SysOps Administrators need to launch, manage, and secure these instances effectively. Configuring security groups to control inbound and outbound traffic is crucial for protecting EC2 instances from unauthorized access.\n\n7. Monitoring and logging in AWS:\nCloudWatch is a monitoring and logging service provided by AWS. SysOps Administrators can use CloudWatch to monitor resource usage, set up alarms for threshold notifications, and analyze logs for troubleshooting. Monitoring and logging play a key role in maintaining the performance and availability of AWS resources.\n\n8. Automation and scripting with AWS CloudFormation and AWS CLI:\nAutomation tools such as AWS CloudFormation and the AWS Command Line Interface (CLI) help SysOps Administrators automate tasks and deployments in AWS. CloudFormation allows for the creation of templates and stacks to define infrastructure as code, while the CLI provides a command-line interface for managing AWS services.\n\n9. Disaster recovery and backups in AWS:\nIt's important to have disaster recovery strategies in place to protect data and applications from unexpected failures. SysOps Administrators should implement backup solutions using services like AWS Backup and Amazon S3. Testing and evaluating disaster recovery plans ensure that systems can be recovered in the event of a disaster.\n\n10. Troubleshooting common issues in AWS:\nSysOps Administrators need to be skilled in troubleshooting common issues and errors that can arise in AWS services. Performance and connectivity issues require quick resolution to minimize downtime and ensure system availability. Utilizing AWS support resources can help in resolving complex issues effectively.\n\n11. Best practices for cost optimization in AWS:\nCost optimization is essential for efficient resource management in AWS. SysOps Administrators should implement strategies to identify and optimize cost drivers, monitor costs using tools like Cost Explorer, and ensure that resources are used cost-effectively.\n\n12. Preparing for the SysOps Administrator - Associate exam:\nThe SysOps Administrator - Associate exam is a certification that validates the skills and knowledge required for the role. To prepare for the exam, candidates should understand the exam objectives, practice with sample questions, and review study materials. This certification demonstrates proficiency in AWS services and infrastructure management."
             ]
+        },
+        {
+            "id": 31,
+            "type": "SaveText|pysssss",
+            "pos": [
+                1803,
+                41
+            ],
+            "size": {
+                "0": 400,
+                "1": 200
+            },
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 63,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "SaveText|pysssss"
+            },
+            "widgets_values": [
+                "output",
+                "file.txt",
+                "append",
+                true,
+                ""
+            ]
+        },
+        {
+            "id": 44,
+            "type": "Prompt Enhancer",
+            "pos": [
+                892,
+                565
+            ],
+            "size": {
+                "0": 507.71197509765625,
+                "1": 392.9981689453125
+            },
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 61,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        62,
+                        63
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Excerpt:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n\n**Identified Violations:**\n{User Prompt}",
+                ""
+            ]
         }
     ],
     "links": [
@@ -367,14 +367,6 @@
             "STRING"
         ],
         [
-            60,
-            26,
-            0,
-            31,
-            0,
-            "STRING"
-        ],
-        [
             61,
             26,
             0,
@@ -387,6 +379,14 @@
             44,
             0,
             45,
+            0,
+            "STRING"
+        ],
+        [
+            63,
+            44,
+            0,
+            31,
             0,
             "STRING"
         ]
@@ -434,8 +434,8 @@
         "ds": {
             "scale": 0.6830134553650706,
             "offset": [
-                245.47870639841074,
-                279.4630065846748
+                -279.9501811015895,
+                -186.0292871653253
             ]
         }
     },
