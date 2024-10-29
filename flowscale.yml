@@ -1,4 +1,4 @@
-version: 0
+version: 1
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -9,8 +9,31 @@ workflows:
     file: content_creation/seed_content_generator_api.json
     version: 4
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 33.inputs.string
+        label: Course Topic
+        parameter_name: string_56550
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 35.inputs.string
+        label: Customer Feedback Thread
+        parameter_name: string_10169
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 31.inputs.file
+        label: file
+        parameter_name: file_64004
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Module Content
+        demo_type: text
     skip_preprocess: true
   - id: ch7f769gibv
     name: module_cover_generator_api.json
