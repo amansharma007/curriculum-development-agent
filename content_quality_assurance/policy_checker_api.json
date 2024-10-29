@@ -5,13 +5,13 @@
                 "26",
                 0
             ],
-            "text2": "**Overall Feedback:**\nThe content evaluated demonstrates a strong grasp of the subject matter and is well-structured for the target audience. It provides accurate information on AWS services and infrastructure in a clear and engaging manner, adhering to industry standards. However, there is room for improvement in enhancing engagement through more interactive elements.\n\n**1. Clarity:**\n- **Score: 9/10**\n  - **Reasoning:** The language used is clear, and complex concepts are explained effectively. The structure is logical and coherent, making it easy to follow.\n  - **Suggestions for Improvement:** Consider incorporating more visual aids or diagrams to further enhance clarity and understanding for visual learners.\n\n**2. Accuracy:**\n- **Score: 10/10**\n  - **Reasoning:** The content is accurate and up-to-date, providing learners with reliable information on AWS services.\n  - **Suggestions for Improvement:** No improvements needed in this criterion.\n\n**3. Engagement:**\n- **Score: 7/10**\n  - **Reasoning:** The content is engaging with practical examples and interactive elements, but additional interactive elements could further enhance learner engagement.\n  - **Suggestions for Improvement:** Incorporate more hands-on exercises, quizzes, or simulations to actively involve learners and reinforce learning.\n\n**4. Compliance:**\n- **Score: 10/10**\n  - **Reasoning:** The content complies with AWS standards and guidelines, using correct trademarks and inclusive language throughout.\n  - **Suggestions for Improvement:** No suggestions for improvement in this criterion.\n\nOverall, the content is well-prepared for publication, with minor adjustments recommended to enhance engagement. By incorporating more interactive elements and visual aids, the content can become even more effective in educating SysOps Administrators on AWS services and infrastructure."
+            "text2": "Based on the review conducted, the content is fully compliant with AWS policies and guidelines. No violations were found in any of the assessed areas, including security protocols, intellectual property, content standards, and accuracy and reliability. The content meets the expectations for professionalism, accuracy, and inclusivity set forth by AWS. There are no policy violations to report at this time."
         },
         "class_type": "ShowText|pysssss"
     },
     "23": {
         "inputs": {
-            "base_prompt": "You are a Senior Content Quality Evaluator for AWS Training materials. Your task is to critically assess the following content based on the following criteria:\n\n**1. Clarity:**\n   - Is the language clear and understandable for the target audience?\n   - Are complex concepts explained simply?\n   - Is the structure logical and coherent?\n\n**2. Accuracy:**\n   - Does the content accurately represent AWS services and features?\n   - Are all technical details correct and up-to-date?\n   - Are there any factual errors or misconceptions?\n\n**3. Engagement:**\n   - Is the content engaging and likely to maintain the learner's interest?\n   - Does it include relevant examples, case studies, or analogies?\n   - Are interactive elements or questions used to stimulate thought?\n\n**4. Compliance:**\n   - Does the content adhere to AWS training standards and guidelines?\n   - Is the use of trademarks and proprietary terms correct?\n   - Is the content free from biased or non-inclusive language?\n\nPlease provide a detailed assessment focusing on these criteria.\n\n**Content to Assess:**\n",
+            "base_prompt": "You are an AWS Policy Compliance Assistant responsible for ensuring that training content adheres to all AWS content policies and guidelines. Carefully review the following content for any violations related to:\n\n- **Security Protocols:** Confidentiality, data protection, and information security.\n- **Intellectual Property:** Proper use of trademarks, copyrights, and licensing agreements.\n- **Content Standards:** Appropriate language, inclusivity, and adherence to ethical guidelines.\n- **Accuracy and Reliability:** Technical correctness and up-to-date information.\n\nProvide a thorough assessment focusing on these areas.\n\n**Content to Review:**\n{User Prompt}",
             "prompt": [
                 "33",
                 0
@@ -21,7 +21,7 @@
     },
     "26": {
         "inputs": {
-            "base_prompt": "Based on your assessment, assign a score out of 10 for each of the following criteria. Provide detailed reasoning for each score, citing specific examples from the content. Offer actionable suggestions for improvement where applicable.\n\n**Formatting Guidelines:**\n\n- **Clarity (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Accuracy (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Engagement (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Compliance (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n**Overall Feedback:**\nSummarize the overall quality of the content and its readiness for publication. Highlight any critical issues that need immediate attention.\n\n**Content Evaluated:**\n\n",
+            "base_prompt": "Based on your review, compile a detailed report of any policy violations found in the content. For each violation, include:\n\n1. **Exact Excerpt:** Copy the specific text that violates the policy.\n2. **Policy Reference:** Cite the exact AWS policy or guideline being violated.\n3. **Explanation:** Briefly explain why this excerpt violates the policy.\n4. **Severity Level:** Assign a severity level (Low, Medium, High, Critical) to each violation.\n\nIf no violations are found, state that the content is fully compliant with AWS policies.\n\n**Reviewed Content:**  \n{User Prompt}",
             "prompt": [
                 "23",
                 0
@@ -31,7 +31,7 @@
     },
     "31": {
         "inputs": {
-            "root_dir": "input",
+            "root_dir": "output",
             "file": "file.txt",
             "append": "append",
             "insert": true,
@@ -54,7 +54,27 @@
                 "23",
                 0
             ],
-            "text2": "**1. Clarity:**\n- The language used in the content is clear and understandable for the target audience of SysOps Administrators. Complex concepts such as automation tools and networking concepts are explained simply, making it easier for learners to grasp the information. The structure of the content is logical and coherent, with a clear progression from an overview of the role to specific topics like networking and security.\n\n**2. Accuracy:**\n- The content accurately represents AWS services and features, including key services like EC2, S3, and VPC. Technical details are correct and up-to-date, providing learners with accurate information on managing AWS infrastructure. There are no factual errors or misconceptions present in the content.\n\n**3. Engagement:**\n- The content is engaging and likely to maintain the learner's interest through its practical examples and case studies. The inclusion of interactive elements like mentions of the AWS Management Console and CloudWatch keeps the content interactive and thought-provoking. However, the content could benefit from more interactive elements to further stimulate learner engagement.\n\n**4. Compliance:**\n- The content adheres to AWS training standards and guidelines by providing accurate information on AWS services and infrastructure. The use of trademarks and proprietary terms is correct throughout the content. The content is free from biased or non-inclusive language, ensuring a welcoming learning environment for all learners.\n\nOverall, the content is well-crafted and informative, providing a comprehensive overview of the SysOps Administrator role and essential AWS topics. Improvements in including more interactive elements could further enhance learner engagement and make the content more dynamic."
+            "text2": "**Assessment:**\n\n1. **Security Protocols:**\n   - The content mentions the importance of security best practices, including implementing strong access controls, encryption, and key management, which aligns with security protocols. No violations found in this area.\n  \n2. **Intellectual Property:**\n   - The content does not reference any specific trademarks, copyrights, or licensing agreements, so there are no apparent violations related to intellectual property.\n  \n3. **Content Standards:**\n   - The language used in the content is professional and appropriate for the intended audience. There are no instances of inappropriate language or violations of ethical guidelines. The content also seems inclusive and does not discriminate against any group or individual.\n  \n4. **Accuracy and Reliability:**\n   - The content provides accurate and up-to-date information about the SysOps Administrator role, AWS services, and best practices. The technical correctness of the content is strong, providing valuable insights for individuals seeking information about AWS infrastructure management.\n\nOverall, the content aligns well with security protocols, intellectual property guidelines, content standards, and accuracy and reliability requirements. No violations or areas of concern were identified in the review."
+        },
+        "class_type": "ShowText|pysssss"
+    },
+    "44": {
+        "inputs": {
+            "base_prompt": "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Excerpt:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n\n**Identified Violations:**\n{User Prompt}",
+            "prompt": [
+                "26",
+                0
+            ]
+        },
+        "class_type": "Prompt Enhancer"
+    },
+    "45": {
+        "inputs": {
+            "text": [
+                "44",
+                0
+            ],
+            "text2": "No violations found."
         },
         "class_type": "ShowText|pysssss"
     }
