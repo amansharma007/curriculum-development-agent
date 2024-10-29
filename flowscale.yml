@@ -28,6 +28,14 @@ workflows:
     inputs: []
     outputs: []
     skip_preprocess: true
+  - id: 1qclm9fsrny
+    name: content_scoring_and_validation_api.json
+    file: content_quality_assurance/content_scoring_and_validation_api.json
+    version: 1
+    description: ''
+    inputs: []
+    outputs: []
+    skip_preprocess: true
 normal_workflows:
   - id: j3gwkyypr97
     name: seed_content_generator.json
@@ -44,4 +52,4 @@ normal_workflows:
   - id: rupkj0gfnpe
     name: content_scoring_and_validation.json
     file: content_quality_assurance/content_scoring_and_validation.json
-    version: 0
+    version: 1
