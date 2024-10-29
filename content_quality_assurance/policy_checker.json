@@ -1,126 +1,7 @@
 {
-    "last_node_id": 43,
-    "last_link_id": 60,
+    "last_node_id": 45,
+    "last_link_id": 62,
     "nodes": [
-        {
-            "id": 33,
-            "type": "PromptUtilitiesConstStringMultiLine",
-            "pos": [
-                -223,
-                3
-            ],
-            "size": [
-                514.3558143063585,
-                399.65965293656495
-            ],
-            "flags": {},
-            "order": 0,
-            "mode": 0,
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        39
-                    ],
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
-            },
-            "widgets_values": [
-                "1. Overview of SysOps Administrator role:\nThe SysOps Administrator role within an organization is crucial for the smooth operation of AWS services and infrastructure. A SysOps Administrator is responsible for managing, maintaining, and monitoring the systems running on the AWS cloud platform. They ensure high availability, security, and performance of AWS services. To be effective in this role, SysOps Administrators require a strong understanding of AWS services, networking concepts, security best practices, automation tools, and troubleshooting techniques.\n\n2. Understanding AWS services and infrastructure:\nAWS offers a wide range of services to address various computing needs, such as computing power, storage, databases, networking, and more. Key AWS services include Amazon EC2 for virtual servers, Amazon S3 for scalable storage, and Amazon VPC for isolated networks. AWS operates in regions around the world, each containing multiple availability zones for redundancy and fault tolerance. Understanding these services and infrastructure is essential for designing and deploying applications on AWS.\n\n3. Introduction to AWS Management Console:\nThe AWS Management Console is a web-based interface that allows users to access and manage AWS services. With the console, users can configure resources, set up monitoring, and manage user access and permissions. Navigating the console effectively is essential for SysOps Administrators to perform their duties efficiently and securely.\n\n4. Basic understanding of networking concepts in AWS:\nNetworking plays a critical role in AWS, with concepts such as Virtual Private Clouds (VPC), subnets, route tables, and security groups being key components. SysOps Administrators need to configure networking settings, troubleshoot connectivity issues, and ensure that resources are secured with proper access controls.\n\n5. Security best practices in AWS:\nSecurity is a top priority in AWS, and SysOps Administrators must follow best practices to protect resources and data from security threats. This includes implementing strong access controls, encryption, and key management. Understanding and applying security best practices is essential for maintaining a secure environment on AWS.\n\n6. Managing EC2 instances and security groups:\nEC2 instances are virtual servers that run on the AWS cloud. SysOps Administrators need to launch, manage, and secure these instances effectively. Configuring security groups to control inbound and outbound traffic is crucial for protecting EC2 instances from unauthorized access.\n\n7. Monitoring and logging in AWS:\nCloudWatch is a monitoring and logging service provided by AWS. SysOps Administrators can use CloudWatch to monitor resource usage, set up alarms for threshold notifications, and analyze logs for troubleshooting. Monitoring and logging play a key role in maintaining the performance and availability of AWS resources.\n\n8. Automation and scripting with AWS CloudFormation and AWS CLI:\nAutomation tools such as AWS CloudFormation and the AWS Command Line Interface (CLI) help SysOps Administrators automate tasks and deployments in AWS. CloudFormation allows for the creation of templates and stacks to define infrastructure as code, while the CLI provides a command-line interface for managing AWS services.\n\n9. Disaster recovery and backups in AWS:\nIt's important to have disaster recovery strategies in place to protect data and applications from unexpected failures. SysOps Administrators should implement backup solutions using services like AWS Backup and Amazon S3. Testing and evaluating disaster recovery plans ensure that systems can be recovered in the event of a disaster.\n\n10. Troubleshooting common issues in AWS:\nSysOps Administrators need to be skilled in troubleshooting common issues and errors that can arise in AWS services. Performance and connectivity issues require quick resolution to minimize downtime and ensure system availability. Utilizing AWS support resources can help in resolving complex issues effectively.\n\n11. Best practices for cost optimization in AWS:\nCost optimization is essential for efficient resource management in AWS. SysOps Administrators should implement strategies to identify and optimize cost drivers, monitor costs using tools like Cost Explorer, and ensure that resources are used cost-effectively.\n\n12. Preparing for the SysOps Administrator - Associate exam:\nThe SysOps Administrator - Associate exam is a certification that validates the skills and knowledge required for the role. To prepare for the exam, candidates should understand the exam objectives, practice with sample questions, and review study materials. This certification demonstrates proficiency in AWS services and infrastructure management."
-            ]
-        },
-        {
-            "id": 23,
-            "type": "Prompt Enhancer",
-            "pos": [
-                -224,
-                565
-            ],
-            "size": [
-                479.8742658688584,
-                407.99523262406467
-            ],
-            "flags": {},
-            "order": 1,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 39,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        31,
-                        57
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "You are a Senior Content Quality Evaluator for AWS Training materials. Your task is to critically assess the following content based on the following criteria:\n\n**1. Clarity:**\n   - Is the language clear and understandable for the target audience?\n   - Are complex concepts explained simply?\n   - Is the structure logical and coherent?\n\n**2. Accuracy:**\n   - Does the content accurately represent AWS services and features?\n   - Are all technical details correct and up-to-date?\n   - Are there any factual errors or misconceptions?\n\n**3. Engagement:**\n   - Is the content engaging and likely to maintain the learner's interest?\n   - Does it include relevant examples, case studies, or analogies?\n   - Are interactive elements or questions used to stimulate thought?\n\n**4. Compliance:**\n   - Does the content adhere to AWS training standards and guidelines?\n   - Is the use of trademarks and proprietary terms correct?\n   - Is the content free from biased or non-inclusive language?\n\nPlease provide a detailed assessment focusing on these criteria.\n\n**Content to Assess:**\n",
-                ""
-            ]
-        },
-        {
-            "id": 26,
-            "type": "Prompt Enhancer",
-            "pos": [
-                284,
-                570
-            ],
-            "size": [
-                507.7119893063581,
-                392.9981748115646
-            ],
-            "flags": {},
-            "order": 2,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 31,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        58,
-                        60
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "Based on your assessment, assign a score out of 10 for each of the following criteria. Provide detailed reasoning for each score, citing specific examples from the content. Offer actionable suggestions for improvement where applicable.\n\n**Formatting Guidelines:**\n\n- **Clarity (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Accuracy (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Engagement (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n- **Compliance (Score: __/10)**\n  - **Reasoning:**\n  - **Suggestions for Improvement:**\n\n**Overall Feedback:**\nSummarize the overall quality of the content and its readiness for publication. Highlight any critical issues that need immediate attention.\n\n**Content Evaluated:**\n\n",
-                ""
-            ]
-        },
         {
             "id": 22,
             "type": "ShowText|pysssss",
@@ -160,32 +41,30 @@
             },
             "widgets_values": [
                 "",
-                "**Overall Feedback:**\nThe content evaluated demonstrates a strong grasp of the subject matter and is well-structured for the target audience. It provides accurate information on AWS services and infrastructure in a clear and engaging manner, adhering to industry standards. However, there is room for improvement in enhancing engagement through more interactive elements.\n\n**1. Clarity:**\n- **Score: 9/10**\n  - **Reasoning:** The language used is clear, and complex concepts are explained effectively. The structure is logical and coherent, making it easy to follow.\n  - **Suggestions for Improvement:** Consider incorporating more visual aids or diagrams to further enhance clarity and understanding for visual learners.\n\n**2. Accuracy:**\n- **Score: 10/10**\n  - **Reasoning:** The content is accurate and up-to-date, providing learners with reliable information on AWS services.\n  - **Suggestions for Improvement:** No improvements needed in this criterion.\n\n**3. Engagement:**\n- **Score: 7/10**\n  - **Reasoning:** The content is engaging with practical examples and interactive elements, but additional interactive elements could further enhance learner engagement.\n  - **Suggestions for Improvement:** Incorporate more hands-on exercises, quizzes, or simulations to actively involve learners and reinforce learning.\n\n**4. Compliance:**\n- **Score: 10/10**\n  - **Reasoning:** The content complies with AWS standards and guidelines, using correct trademarks and inclusive language throughout.\n  - **Suggestions for Improvement:** No suggestions for improvement in this criterion.\n\nOverall, the content is well-prepared for publication, with minor adjustments recommended to enhance engagement. By incorporating more interactive elements and visual aids, the content can become even more effective in educating SysOps Administrators on AWS services and infrastructure."
+                "Based on the review conducted, the content is fully compliant with AWS policies and guidelines. No violations were found in any of the assessed areas, including security protocols, intellectual property, content standards, and accuracy and reliability. The content meets the expectations for professionalism, accuracy, and inclusivity set forth by AWS. There are no policy violations to report at this time."
             ]
         },
         {
-            "id": 43,
-            "type": "ShowText|pysssss",
+            "id": 23,
+            "type": "Prompt Enhancer",
             "pos": [
-                390,
-                30
+                -224,
+                565
             ],
-            "size": [
-                339.49736808196144,
-                336.5476195003332
-            ],
-            "flags": {
-                "collapsed": false
+            "size": {
+                "0": 479.874267578125,
+                "1": 407.9952392578125
             },
-            "order": 3,
+            "flags": {},
+            "order": 1,
             "mode": 0,
             "inputs": [
                 {
-                    "name": "text",
+                    "name": "prompt",
                     "type": "STRING",
-                    "link": 57,
+                    "link": 39,
                     "widget": {
-                        "name": "text"
+                        "name": "prompt"
                     }
                 }
             ],
@@ -193,24 +72,116 @@
                 {
                     "name": "STRING",
                     "type": "STRING",
-                    "links": null,
-                    "shape": 6
+                    "links": [
+                        31,
+                        57
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
                 }
             ],
             "properties": {
-                "Node name for S&R": "ShowText|pysssss"
+                "Node name for S&R": "Prompt Enhancer"
             },
             "widgets_values": [
-                "",
-                "**1. Clarity:**\n- The language used in the content is clear and understandable for the target audience of SysOps Administrators. Complex concepts such as automation tools and networking concepts are explained simply, making it easier for learners to grasp the information. The structure of the content is logical and coherent, with a clear progression from an overview of the role to specific topics like networking and security.\n\n**2. Accuracy:**\n- The content accurately represents AWS services and features, including key services like EC2, S3, and VPC. Technical details are correct and up-to-date, providing learners with accurate information on managing AWS infrastructure. There are no factual errors or misconceptions present in the content.\n\n**3. Engagement:**\n- The content is engaging and likely to maintain the learner's interest through its practical examples and case studies. The inclusion of interactive elements like mentions of the AWS Management Console and CloudWatch keeps the content interactive and thought-provoking. However, the content could benefit from more interactive elements to further stimulate learner engagement.\n\n**4. Compliance:**\n- The content adheres to AWS training standards and guidelines by providing accurate information on AWS services and infrastructure. The use of trademarks and proprietary terms is correct throughout the content. The content is free from biased or non-inclusive language, ensuring a welcoming learning environment for all learners.\n\nOverall, the content is well-crafted and informative, providing a comprehensive overview of the SysOps Administrator role and essential AWS topics. Improvements in including more interactive elements could further enhance learner engagement and make the content more dynamic."
+                "You are an AWS Policy Compliance Assistant responsible for ensuring that training content adheres to all AWS content policies and guidelines. Carefully review the following content for any violations related to:\n\n- **Security Protocols:** Confidentiality, data protection, and information security.\n- **Intellectual Property:** Proper use of trademarks, copyrights, and licensing agreements.\n- **Content Standards:** Appropriate language, inclusivity, and adherence to ethical guidelines.\n- **Accuracy and Reliability:** Technical correctness and up-to-date information.\n\nProvide a thorough assessment focusing on these areas.\n\n**Content to Review:**\n{User Prompt}",
+                ""
+            ]
+        },
+        {
+            "id": 26,
+            "type": "Prompt Enhancer",
+            "pos": [
+                284,
+                570
+            ],
+            "size": {
+                "0": 507.71197509765625,
+                "1": 392.9981689453125
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 31,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        58,
+                        60,
+                        61
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "Based on your review, compile a detailed report of any policy violations found in the content. For each violation, include:\n\n1. **Exact Excerpt:** Copy the specific text that violates the policy.\n2. **Policy Reference:** Cite the exact AWS policy or guideline being violated.\n3. **Explanation:** Briefly explain why this excerpt violates the policy.\n4. **Severity Level:** Assign a severity level (Low, Medium, High, Critical) to each violation.\n\nIf no violations are found, state that the content is fully compliant with AWS policies.\n\n**Reviewed Content:**  \n{User Prompt}",
+                ""
+            ]
+        },
+        {
+            "id": 44,
+            "type": "Prompt Enhancer",
+            "pos": [
+                892,
+                565
+            ],
+            "size": {
+                "0": 507.71197509765625,
+                "1": 392.9981689453125
+            },
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 61,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        62
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Excerpt:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n\n**Identified Violations:**\n{User Prompt}",
+                ""
             ]
         },
         {
             "id": 31,
             "type": "SaveText|pysssss",
             "pos": [
-                1162,
-                49
+                1803,
+                41
             ],
             "size": {
                 "0": 400,
@@ -241,11 +212,124 @@
                 "Node name for S&R": "SaveText|pysssss"
             },
             "widgets_values": [
-                "input",
+                "output",
                 "file.txt",
                 "append",
                 true,
                 ""
+            ]
+        },
+        {
+            "id": 45,
+            "type": "ShowText|pysssss",
+            "pos": [
+                1208,
+                30
+            ],
+            "size": [
+                453.8441776702307,
+                261.0008885824932
+            ],
+            "flags": {},
+            "order": 7,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 62,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            },
+            "widgets_values": [
+                "",
+                "No violations found."
+            ]
+        },
+        {
+            "id": 43,
+            "type": "ShowText|pysssss",
+            "pos": [
+                390,
+                30
+            ],
+            "size": {
+                "0": 339.49737548828125,
+                "1": 336.547607421875
+            },
+            "flags": {
+                "collapsed": false
+            },
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 57,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            },
+            "widgets_values": [
+                "",
+                "**Assessment:**\n\n1. **Security Protocols:**\n   - The content mentions the importance of security best practices, including implementing strong access controls, encryption, and key management, which aligns with security protocols. No violations found in this area.\n  \n2. **Intellectual Property:**\n   - The content does not reference any specific trademarks, copyrights, or licensing agreements, so there are no apparent violations related to intellectual property.\n  \n3. **Content Standards:**\n   - The language used in the content is professional and appropriate for the intended audience. There are no instances of inappropriate language or violations of ethical guidelines. The content also seems inclusive and does not discriminate against any group or individual.\n  \n4. **Accuracy and Reliability:**\n   - The content provides accurate and up-to-date information about the SysOps Administrator role, AWS services, and best practices. The technical correctness of the content is strong, providing valuable insights for individuals seeking information about AWS infrastructure management.\n\nOverall, the content aligns well with security protocols, intellectual property guidelines, content standards, and accuracy and reliability requirements. No violations or areas of concern were identified in the review."
+            ]
+        },
+        {
+            "id": 33,
+            "type": "PromptUtilitiesConstStringMultiLine",
+            "pos": [
+                -223,
+                3
+            ],
+            "size": {
+                "0": 514.3558349609375,
+                "1": 399.65966796875
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        39
+                    ],
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
+            },
+            "widgets_values": [
+                "1. Overview of SysOps Administrator role:\nThe SysOps Administrator role within an organization is crucial for the smooth operation of AWS services and infrastructure. A SysOps Administrator is responsible for managing, maintaining, and monitoring the systems running on the AWS cloud platform. They ensure high availability, security, and performance of AWS services. To be effective in this role, SysOps Administrators require a strong understanding of AWS services, networking concepts, security best practices, automation tools, and troubleshooting techniques.\n\n2. Understanding AWS services and infrastructure:\nAWS offers a wide range of services to address various computing needs, such as computing power, storage, databases, networking, and more. Key AWS services include Amazon EC2 for virtual servers, Amazon S3 for scalable storage, and Amazon VPC for isolated networks. AWS operates in regions around the world, each containing multiple availability zones for redundancy and fault tolerance. Understanding these services and infrastructure is essential for designing and deploying applications on AWS.\n\n3. Introduction to AWS Management Console:\nThe AWS Management Console is a web-based interface that allows users to access and manage AWS services. With the console, users can configure resources, set up monitoring, and manage user access and permissions. Navigating the console effectively is essential for SysOps Administrators to perform their duties efficiently and securely.\n\n4. Basic understanding of networking concepts in AWS:\nNetworking plays a critical role in AWS, with concepts such as Virtual Private Clouds (VPC), subnets, route tables, and security groups being key components. SysOps Administrators need to configure networking settings, troubleshoot connectivity issues, and ensure that resources are secured with proper access controls.\n\n5. Security best practices in AWS:\nSecurity is a top priority in AWS, and SysOps Administrators must follow best practices to protect resources and data from security threats. This includes implementing strong access controls, encryption, and key management. Understanding and applying security best practices is essential for maintaining a secure environment on AWS.\n\n6. Managing EC2 instances and security groups:\nEC2 instances are virtual servers that run on the AWS cloud. SysOps Administrators need to launch, manage, and secure these instances effectively. Configuring security groups to control inbound and outbound traffic is crucial for protecting EC2 instances from unauthorized access.\n\n7. Monitoring and logging in AWS:\nCloudWatch is a monitoring and logging service provided by AWS. SysOps Administrators can use CloudWatch to monitor resource usage, set up alarms for threshold notifications, and analyze logs for troubleshooting. Monitoring and logging play a key role in maintaining the performance and availability of AWS resources.\n\n8. Automation and scripting with AWS CloudFormation and AWS CLI:\nAutomation tools such as AWS CloudFormation and the AWS Command Line Interface (CLI) help SysOps Administrators automate tasks and deployments in AWS. CloudFormation allows for the creation of templates and stacks to define infrastructure as code, while the CLI provides a command-line interface for managing AWS services.\n\n9. Disaster recovery and backups in AWS:\nIt's important to have disaster recovery strategies in place to protect data and applications from unexpected failures. SysOps Administrators should implement backup solutions using services like AWS Backup and Amazon S3. Testing and evaluating disaster recovery plans ensure that systems can be recovered in the event of a disaster.\n\n10. Troubleshooting common issues in AWS:\nSysOps Administrators need to be skilled in troubleshooting common issues and errors that can arise in AWS services. Performance and connectivity issues require quick resolution to minimize downtime and ensure system availability. Utilizing AWS support resources can help in resolving complex issues effectively.\n\n11. Best practices for cost optimization in AWS:\nCost optimization is essential for efficient resource management in AWS. SysOps Administrators should implement strategies to identify and optimize cost drivers, monitor costs using tools like Cost Explorer, and ensure that resources are used cost-effectively.\n\n12. Preparing for the SysOps Administrator - Associate exam:\nThe SysOps Administrator - Associate exam is a certification that validates the skills and knowledge required for the role. To prepare for the exam, candidates should understand the exam objectives, practice with sample questions, and review study materials. This certification demonstrates proficiency in AWS services and infrastructure management."
             ]
         }
     ],
@@ -289,6 +373,22 @@
             31,
             0,
             "STRING"
+        ],
+        [
+            61,
+            26,
+            0,
+            44,
+            0,
+            "STRING"
+        ],
+        [
+            62,
+            44,
+            0,
+            45,
+            0,
+            "STRING"
         ]
     ],
     "groups": [
@@ -297,8 +397,8 @@
             "bounding": [
                 -250,
                 459,
-                1120,
-                570
+                1704,
+                576
             ],
             "color": "#3f789e",
             "font_size": 24,
@@ -321,8 +421,8 @@
             "bounding": [
                 360,
                 -66,
-                1281,
-                513
+                1886,
+                504
             ],
             "color": "#3f789e",
             "font_size": 24,
@@ -332,10 +432,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.620921323059155,
+            "scale": 0.6830134553650706,
             "offset": [
-                413.5106801990884,
-                203.3206126817115
+                245.47870639841074,
+                279.4630065846748
             ]
         }
     },
