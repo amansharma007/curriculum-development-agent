@@ -1,0 +1,391 @@
+{
+    "last_node_id": 33,
+    "last_link_id": 39,
+    "nodes": [
+        {
+            "id": 23,
+            "type": "Prompt Enhancer",
+            "pos": [
+                -205.12535923730462,
+                548.1620227636716
+            ],
+            "size": [
+                409.4603132021478,
+                158.47793339843736
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 39,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        31,
+                        36,
+                        37
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "You are an expert curriculum developer specializing in creating training materials. Generate a list of key subtopics that should be covered in a training module.\n\nTopic:\n\n",
+                ""
+            ]
+        },
+        {
+            "id": 24,
+            "type": "Prompt Enhancer",
+            "pos": [
+                224.87464076269532,
+                808.1620227636716
+            ],
+            "size": {
+                "0": 400,
+                "1": 200
+            },
+            "flags": {},
+            "order": 5,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 32,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        27
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "Draft comprehensive content for each subtopic, ensuring clarity and engagement for learners new to the topic.\n\nLearning Objectives:\n\n",
+                ""
+            ]
+        },
+        {
+            "id": 26,
+            "type": "Prompt Enhancer",
+            "pos": [
+                224.87464076269532,
+                558.1620227636716
+            ],
+            "size": {
+                "0": 400,
+                "1": 200
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 31,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        32
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "Using the subtopics listed below, create detailed learning objectives for each subtopic.\n\nSubtopics:\n\n",
+                ""
+            ]
+        },
+        {
+            "id": 33,
+            "type": "PromptUtilitiesConstStringMultiLine",
+            "pos": [
+                -149,
+                64
+            ],
+            "size": {
+                "0": 400,
+                "1": 200
+            },
+            "flags": {},
+            "order": 0,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        39
+                    ],
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "PromptUtilitiesConstStringMultiLine"
+            },
+            "widgets_values": [
+                "Introduction to AWS Cloud Services"
+            ]
+        },
+        {
+            "id": 25,
+            "type": "ShowText|pysssss",
+            "pos": [
+                406,
+                134
+            ],
+            "size": [
+                378.39412255859156,
+                244.70127709960866
+            ],
+            "flags": {},
+            "order": 4,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 37,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "title": "Blog Content Ã°ÂÂÂ",
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            },
+            "widgets_values": [
+                "",
+                "1. Overview of AWS Cloud Services\n2. Benefits of using AWS\n3. Understanding AWS infrastructure and data centers\n4. Creating an AWS account and setting up billing\n5. Overview of AWS services (EC2, S3, RDS, etc.)\n6. Security best practices in AWS\n7. Cost management and optimization in AWS\n8. Monitoring and logging in AWS\n9. Networking in AWS (VPC, Route 53, etc.)\n10. Automation and orchestration with AWS services (CloudFormation, Lambda, etc.)\n11. Case studies and real-world examples of companies using AWS\n12. Hands-on exercises and practical applications of AWS services."
+            ]
+        },
+        {
+            "id": 22,
+            "type": "ShowText|pysssss",
+            "pos": [
+                852,
+                62
+            ],
+            "size": [
+                389.3231459960939,
+                311.4125310791019
+            ],
+            "flags": {},
+            "order": 6,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 27,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 6
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "ShowText|pysssss"
+            },
+            "widgets_values": [
+                "",
+                "1. Overview of AWS Cloud Services:\n\nAWS Cloud Services refer to the portfolio of on-demand computing resources offered by Amazon Web Services (AWS). These services include computing power, storage options, networking capabilities, and more, all delivered over the internet. The benefits of using AWS cloud services include cost savings, scalability, flexibility, and security. Some common AWS services include Amazon EC2 (Elastic Compute Cloud) for virtual servers, Amazon S3 (Simple Storage Service) for object storage, and Amazon RDS (Relational Database Service) for managed databases. AWS offers different deployment models, including Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS). AWS has a global infrastructure, with Regions, Availability Zones, and Edge Locations strategically located around the world to provide low-latency access to services.\n\n2. Benefits of using AWS:\n\nUsing AWS offers numerous advantages over traditional on-premises solutions. AWS helps in cost reduction by eliminating the need for upfront hardware investments and providing pay-as-you-go pricing. It enables scalability, allowing businesses to easily adjust their resources based on demand. AWS services offer flexibility and agility, enabling rapid deployment and innovation. Additionally, AWS provides robust security features and compliance certifications to ensure data protection. Case studies of companies leveraging AWS showcase the tangible benefits of using cloud services to drive business growth and efficiency.\n\n3. Understanding AWS infrastructure and data centers:\n\nAWS data centers are strategically distributed across different geographical locations to ensure high availability and reliability. Physical security measures at AWS data centers include access controls, surveillance systems, and redundant power and cooling systems. AWS infrastructure encompasses Regions, which are distinct geographic areas, Availability Zones within each Region, and Edge Locations for content delivery. Data is stored and managed in AWS using various storage options, including block storage, object storage, and archival storage.\n\n4. Creating an AWS account and setting up billing:\n\nTo get started with AWS, users can create an account and access the AWS Management Console. AWS offers various pricing models, such as On-Demand Instances, Reserved Instances, and Savings Plans, to accommodate different usage patterns. Setting up cost tracking and budget alerts in AWS helps users monitor and control their spending. The AWS Free Tier allows new users to explore certain services for free within usage limits. Resources and tools are available to help users manage and optimize their AWS costs effectively.\n\n5. Overview of AWS services (EC2, S3, RDS, etc.):\n\nCommon AWS services like Amazon EC2, Amazon S3, and Amazon RDS provide essential functionalities for computing, storage, and database management. Each service has distinct use cases and benefits, such as provisioning virtual servers with EC2, storing and retrieving data with S3, and deploying managed databases with RDS. Users can launch and configure instances in EC2, create S3 buckets for data storage, and set up RDS instances for database applications.\n\n6. Security best practices in AWS:\n\nSecurity in AWS follows a shared responsibility model, where AWS manages the security of the cloud infrastructure, and users are responsible for securing their data and applications. Secure access to AWS resources is achieved using Identity and Access Management (IAM) with granular permissions. Encryption options such as AWS Key Management Service (KMS) and SSL/TLS protocols ensure data protection. Monitoring and auditing tools in AWS help users track security events and compliance activities. Developing a security policy and incident response plan is crucial for maintaining a secure AWS environment.\n\n7. Cost management and optimization in AWS:\n\nCost management in AWS involves allocating costs, tagging resources, and analyzing spending patterns using tools like AWS Cost Explorer. Reserved Instances and Savings Plans offer cost savings for long-term usage commitments. Implementing cost management best practices helps users optimize their spending and maximize the value of their AWS investments. Cost optimization strategies can vary based on the type of workloads and usage patterns in AWS.\n\n8. Monitoring and logging in AWS:\n\nMonitoring and logging are essential components of AWS to track performance, security, and compliance metrics. CloudWatch provides monitoring capabilities for AWS resources, enabling users to set up alarms and notifications based on predefined thresholds. CloudTrail logs API activity in AWS for auditing and compliance purposes. Monitoring and logging data can be used for troubleshooting, performance tuning, and optimization of AWS resources.\n\n9. Networking in AWS (VPC, Route 53, etc.):\n\nAWS Virtual Private Cloud (VPC) allows users to create isolated virtual networks within the AWS cloud environment. Designing a VPC involves configuring subnets, route tables, and network security groups for traffic control and security. Route 53 is AWS's DNS management service for routing internet traffic to applications hosted in AWS. Setting up public and private subnets, managing network security, and configuring routing rules are essential networking tasks in AWS.\n\n10. Automation and orchestration with AWS services (CloudFormation, Lambda, etc.):\n\nAutomation in AWS is achieved using services like AWS CloudFormation for provisioning infrastructure and AWS Lambda for serverless computing. CloudFormation templates enable users to define and deploy resources in a repeatable and automated manner. Lambda functions execute code without provisioning or managing server instances, promoting scalability and cost efficiency. Best practices for infrastructure as code and serverless applications help streamline deployment and operations in AWS.\n\n11. Case studies and real-world examples of companies using AWS:\n\nReal-world case studies showcase the benefits of leveraging AWS services for business transformation and innovation. Companies across various industries have successfully migrated to AWS to achieve scalability, reliability, and cost efficiency. Analyzing challenges faced and solutions implemented by these companies on AWS provides valuable insights for adopting best practices and lessons learned. AWS enables companies to stay competitive in the market by leveraging cloud services for digital transformation and growth.\n\n12. Hands-on exercises and practical applications of AWS services:\n\nHands-on exercises help users gain practical experience with AWS services by performing tasks such as launching EC2 instances, configuring S3 buckets, setting up RDS databases, designing VPC networks, and automating workflows with CloudFormation and Lambda. By following step-by-step instructions and guided tutorials, users can develop skills in deploying, managing, and optimizing AWS resources for real-world applications. Practicing hands-on exercises enhances understanding and proficiency in using AWS services effectively."
+            ]
+        },
+        {
+            "id": 31,
+            "type": "SaveText|pysssss",
+            "pos": [
+                921,
+                526
+            ],
+            "size": {
+                "0": 400,
+                "1": 200
+            },
+            "flags": {},
+            "order": 3,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "text",
+                    "type": "STRING",
+                    "link": 36,
+                    "widget": {
+                        "name": "text"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": null,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "SaveText|pysssss"
+            },
+            "widgets_values": [
+                "input",
+                "file.txt",
+                "append",
+                true,
+                ""
+            ]
+        }
+    ],
+    "links": [
+        [
+            27,
+            24,
+            0,
+            22,
+            0,
+            "STRING"
+        ],
+        [
+            31,
+            23,
+            0,
+            26,
+            0,
+            "STRING"
+        ],
+        [
+            32,
+            26,
+            0,
+            24,
+            0,
+            "STRING"
+        ],
+        [
+            36,
+            23,
+            0,
+            31,
+            0,
+            "STRING"
+        ],
+        [
+            37,
+            23,
+            0,
+            25,
+            0,
+            "STRING"
+        ],
+        [
+            39,
+            33,
+            0,
+            23,
+            0,
+            "STRING"
+        ]
+    ],
+    "groups": [
+        {
+            "title": "LLM Prompt Chaining",
+            "bounding": [
+                -250,
+                459,
+                952,
+                602
+            ],
+            "color": "#3f789e",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "Inputs",
+            "bounding": [
+                -250,
+                -70,
+                586,
+                509
+            ],
+            "color": "#3f789e",
+            "font_size": 24,
+            "locked": false
+        },
+        {
+            "title": "Outputs",
+            "bounding": [
+                360,
+                -66,
+                1289,
+                488
+            ],
+            "color": "#3f789e",
+            "font_size": 24,
+            "locked": false
+        }
+    ],
+    "config": {},
+    "extra": {
+        "ds": {
+            "scale": 0.7513148009015786,
+            "offset": {
+                "0": 386.1042175292969,
+                "1": 114.48291778564453
+            }
+        }
+    },
+    "version": 0.4
+}
