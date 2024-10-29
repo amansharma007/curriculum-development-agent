@@ -1,4 +1,4 @@
-version: 2
+version: 3
 models: models.json
 custom_nodes: custom_nodes.json
 user_models: user_models.json
@@ -72,8 +72,24 @@ workflows:
     file: content_quality_assurance/content_scoring_and_validation_api.json
     version: 1
     description: ''
-    inputs: []
-    outputs: []
+    inputs:
+      - path: 33.inputs.string
+        label: Module Content
+        parameter_name: string_13161
+        type: string
+        demo_type: text
+        category: input
+        randomize: false
+      - path: 31.inputs.file
+        label: file
+        parameter_name: file_41093
+        type: string
+        demo_type: text
+        category: output
+        randomize: true
+    outputs:
+      - label: Content Score and Feedback
+        demo_type: text
     skip_preprocess: true
 normal_workflows:
   - id: j3gwkyypr97
