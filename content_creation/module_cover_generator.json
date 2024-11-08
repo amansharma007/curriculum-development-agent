@@ -14,7 +14,7 @@
                 "1": 180.6060791015625
             },
             "flags": {},
-            "order": 3,
+            "order": 4,
             "mode": 0,
             "inputs": [
                 {
@@ -311,56 +311,6 @@
             ]
         },
         {
-            "id": 11,
-            "type": "CheckpointLoaderSimple",
-            "pos": [
-                779,
-                563
-            ],
-            "size": {
-                "0": 315,
-                "1": 98
-            },
-            "flags": {
-                "collapsed": false
-            },
-            "order": 1,
-            "mode": 0,
-            "outputs": [
-                {
-                    "name": "MODEL",
-                    "type": "MODEL",
-                    "links": [
-                        10
-                    ],
-                    "slot_index": 0
-                },
-                {
-                    "name": "CLIP",
-                    "type": "CLIP",
-                    "links": [
-                        14,
-                        15
-                    ],
-                    "slot_index": 1
-                },
-                {
-                    "name": "VAE",
-                    "type": "VAE",
-                    "links": [
-                        17
-                    ],
-                    "slot_index": 2
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "CheckpointLoaderSimple"
-            },
-            "widgets_values": [
-                "flux1-dev-fp8.safetensors"
-            ]
-        },
-        {
             "id": 16,
             "type": "SaveImage",
             "pos": [
@@ -399,7 +349,7 @@
                 "1": 408.7108459472656
             },
             "flags": {},
-            "order": 2,
+            "order": 1,
             "mode": 0,
             "outputs": [
                 {
@@ -432,7 +382,7 @@
                 "1": 200
             },
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [
                 {
@@ -470,10 +420,10 @@
                 258,
                 549
             ],
-            "size": [
-                394.309580996053,
-                204.4861448087861
-            ],
+            "size": {
+                "0": 394.3095703125,
+                "1": 204.48614501953125
+            },
             "flags": {},
             "order": 6,
             "mode": 0,
@@ -501,6 +451,56 @@
             "widgets_values": [
                 "",
                 "Scene: \n\nA dystopian cityscape at night, with neon lights illuminating the rainy streets. A lone figure, cloaked in shadows, stands on a rooftop overlooking the city, their cybernetic eyes glowing in the darkness. Below, flying cars zoom past, leaving streaks of light in their wake. In the distance, towering skyscrapers loom, casting long shadows over the city below. The figure's hand grips a futuristic weapon, ready to face whatever threats may come their way in this cyberpunk world."
+            ]
+        },
+        {
+            "id": 11,
+            "type": "CheckpointLoaderSimple",
+            "pos": [
+                779,
+                563
+            ],
+            "size": {
+                "0": 315,
+                "1": 98
+            },
+            "flags": {
+                "collapsed": false
+            },
+            "order": 2,
+            "mode": 0,
+            "outputs": [
+                {
+                    "name": "MODEL",
+                    "type": "MODEL",
+                    "links": [
+                        10
+                    ],
+                    "slot_index": 0
+                },
+                {
+                    "name": "CLIP",
+                    "type": "CLIP",
+                    "links": [
+                        14,
+                        15
+                    ],
+                    "slot_index": 1
+                },
+                {
+                    "name": "VAE",
+                    "type": "VAE",
+                    "links": [
+                        17
+                    ],
+                    "slot_index": 2
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "CheckpointLoaderSimple"
+            },
+            "widgets_values": [
+                "FLUX1/flux1-dev-fp8.safetensors"
             ]
         }
     ],
@@ -673,8 +673,8 @@
         "ds": {
             "scale": 0.8264462809917366,
             "offset": [
-                281.05416900394584,
-                -3.323957308787036
+                292.87057525394584,
+                44.64119894121295
             ]
         }
     },
