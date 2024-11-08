@@ -107,6 +107,22 @@ workflows:
       - label: Content Score and Feedback
         demo_type: text
     skip_preprocess: true
+  - id: eoi9ut9y8dm
+    name: module_cover_generator.json
+    description: ''
+    file: content_creation/module_cover_generator.json
+  - id: h5gz0t2f5tl
+    name: seed_content_generator.json
+    description: ''
+    file: content_creation/seed_content_generator.json
+  - id: yf41tpe7a28
+    name: content_scoring_and_validation.json
+    description: ''
+    file: content_quality_assurance/content_scoring_and_validation.json
+  - id: g83jzq86mdw
+    name: policy_checker.json
+    description: ''
+    file: content_quality_assurance/policy_checker.json
 normal_workflows:
   - id: j3gwkyypr97
     name: seed_content_generator.json
