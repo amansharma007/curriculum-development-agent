@@ -21,7 +21,7 @@
     },
     "26": {
         "inputs": {
-            "base_prompt": "Based on your review, compile a detailed report of any policy violations found in the content. For each violation, include:\n\n1. **Exact Excerpt:** Copy the specific text that violates the policy.\n2. **Policy Reference:** Cite the exact AWS policy or guideline being violated.\n3. **Explanation:** Briefly explain why this excerpt violates the policy.\n4. **Severity Level:** Assign a severity level (Low, Medium, High, Critical) to each violation.\n\nIf no violations are found, state that the content is fully compliant with AWS policies.\n\n**Reviewed Content:**  \n{User Prompt}",
+            "base_prompt": "Based on your review, compile a detailed report of any policy violations found in the content. For each violation, include:\n\n1. **Exact Excerpt:** Copy the specific text that violates the policy.\n2. **Policy Reference:** Cite the exact AWS policy or guideline being violated.\n3. **Explanation:** Briefly explain why this excerpt violates the policy.\n4. **Severity Level:** Assign a severity level (Low, Medium, High, Critical) to each violation.\n\nIf no violations are found, state that the content is fully compliant with AWS policies.\n\n**Reviewed Content:**  \n{User Prompt}\n",
             "prompt": [
                 "23",
                 0
