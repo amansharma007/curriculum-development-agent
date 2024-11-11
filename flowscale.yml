@@ -62,7 +62,7 @@ workflows:
   - id: agsra5gmqto
     name: policy_checker_api.json
     file: content_quality_assurance/policy_checker_api.json
-    version: 4
+    version: 5
     description: ''
     inputs:
       - path: 33.inputs.string
@@ -135,7 +135,7 @@ normal_workflows:
   - id: pzxdm37zce
     name: policy_checker.json
     file: content_quality_assurance/policy_checker.json
-    version: 4
+    version: 5
   - id: rupkj0gfnpe
     name: content_scoring_and_validation.json
     file: content_quality_assurance/content_scoring_and_validation.json
