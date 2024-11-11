@@ -89,50 +89,6 @@
             ]
         },
         {
-            "id": 26,
-            "type": "Prompt Enhancer",
-            "pos": [
-                284,
-                570
-            ],
-            "size": {
-                "0": 507.71197509765625,
-                "1": 392.9981689453125
-            },
-            "flags": {},
-            "order": 2,
-            "mode": 0,
-            "inputs": [
-                {
-                    "name": "prompt",
-                    "type": "STRING",
-                    "link": 31,
-                    "widget": {
-                        "name": "prompt"
-                    }
-                }
-            ],
-            "outputs": [
-                {
-                    "name": "STRING",
-                    "type": "STRING",
-                    "links": [
-                        58,
-                        61
-                    ],
-                    "slot_index": 0,
-                    "shape": 3
-                }
-            ],
-            "properties": {
-                "Node name for S&R": "Prompt Enhancer"
-            },
-            "widgets_values": [
-                "Based on your review, compile a detailed report of any policy violations found in the content. For each violation, include:\n\n1. **Exact Excerpt:** Copy the specific text that violates the policy.\n2. **Policy Reference:** Cite the exact AWS policy or guideline being violated.\n3. **Explanation:** Briefly explain why this excerpt violates the policy.\n4. **Severity Level:** Assign a severity level (Low, Medium, High, Critical) to each violation.\n\nIf no violations are found, state that the content is fully compliant with AWS policies.\n\n**Reviewed Content:**  \n{User Prompt}",
-                ""
-            ]
-        },
-        {
             "id": 45,
             "type": "ShowText|pysssss",
             "pos": [
@@ -289,6 +245,50 @@
             ]
         },
         {
+            "id": 26,
+            "type": "Prompt Enhancer",
+            "pos": [
+                284,
+                570
+            ],
+            "size": {
+                "0": 507.71197509765625,
+                "1": 392.9981689453125
+            },
+            "flags": {},
+            "order": 2,
+            "mode": 0,
+            "inputs": [
+                {
+                    "name": "prompt",
+                    "type": "STRING",
+                    "link": 31,
+                    "widget": {
+                        "name": "prompt"
+                    }
+                }
+            ],
+            "outputs": [
+                {
+                    "name": "STRING",
+                    "type": "STRING",
+                    "links": [
+                        58,
+                        61
+                    ],
+                    "slot_index": 0,
+                    "shape": 3
+                }
+            ],
+            "properties": {
+                "Node name for S&R": "Prompt Enhancer"
+            },
+            "widgets_values": [
+                "Based on your review, compile a detailed report of any policy violations found in the content. For each violation, include:\n\n1. **Exact Excerpt:** Copy the specific text that violates the policy.\n2. **Policy Reference:** Cite the exact AWS policy or guideline being violated.\n3. **Explanation:** Briefly explain why this excerpt violates the policy.\n4. **Severity Level:** Assign a severity level (Low, Medium, High, Critical) to each violation.\n\nIf no violations are found, state that the content is fully compliant with AWS policies.\n\n**Reviewed Content:**  \n{User Prompt}",
+                ""
+            ]
+        },
+        {
             "id": 44,
             "type": "Prompt Enhancer",
             "pos": [
@@ -328,7 +328,7 @@
                 "Node name for S&R": "Prompt Enhancer"
             },
             "widgets_values": [
-                "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Excerpt:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n\n**Identified Violations:**\n{User Prompt}",
+                "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Except:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n- **Severity:** [From 0 to 10 tell us how severe the violation is]\n\n**Identified Violations:**\n{User Prompt}",
                 ""
             ]
         }
@@ -432,10 +432,10 @@
     "config": {},
     "extra": {
         "ds": {
-            "scale": 0.6830134553650706,
+            "scale": 1,
             "offset": [
-                -279.9501811015895,
-                -186.0292871653253
+                -441.10705462244925,
+                -153.71390872220454
             ]
         }
     },
