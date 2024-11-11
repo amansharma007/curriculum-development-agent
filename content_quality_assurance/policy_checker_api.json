@@ -60,7 +60,7 @@
     },
     "44": {
         "inputs": {
-            "base_prompt": "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Excerpt:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n\n**Identified Violations:**\n{User Prompt}",
+            "base_prompt": "For each identified policy violation listed below, propose precise and actionable revisions to correct the issue. Ensure that the revisions:\n\n- **Maintain Original Intent:** The core message and educational value should remain intact.\n- **Ensure Compliance:** Fully adhere to the cited AWS policy or guideline.\n- **Enhance Clarity:** Improve the content's clarity and readability where possible.\n\nPresent your suggestions in the following format:\n\n- **Violation Except:** [Copy of the problematic text]\n- **Suggested Revision:** [Your proposed correction]\n- **Rationale:** [Brief explanation of how the revision resolves the violation]\n- **Severity:** [From 0 to 10 tell us how severe the violation is]\n\n**Identified Violations:**\n{User Prompt}",
             "prompt": [
                 "26",
                 0
